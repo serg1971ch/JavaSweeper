@@ -1,0 +1,16 @@
+import java.util.*;
+
+ // Compiler version JDK 11.0.2
+
+ class Parser{
+   
+  static  char baks = '$';
+  static double num  = 5.0;
+   
+ 
+   public static void main(String args[])
+   { 
+    var s = baks + num;
+    System.out.println(s);
+   }
+ }
